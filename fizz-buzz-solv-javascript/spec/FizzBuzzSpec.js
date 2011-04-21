@@ -22,6 +22,13 @@ describe("fizzBuzz", function() {
       expect(result).toBe('fizzbuzz');
     });
   });
+  
+  describe("a number not divisible by 3 or 5", function() {
+    it("returns the number", function() {
+      result = sut(4);
+      expect(result).toBe(4);
+    });
+  });
 
   
 });
