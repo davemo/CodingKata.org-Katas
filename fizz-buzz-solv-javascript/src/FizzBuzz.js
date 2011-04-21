@@ -1,3 +1,3 @@
 fizzBuzz = function(num) {
-    return num;
+    return 'fizz';
 };
