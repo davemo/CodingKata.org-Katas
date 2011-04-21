@@ -1,5 +1,7 @@
 var TeaParty = {
   welcome: function(lastName, isWoman, isSir) {
-    return "Ms.";
+    var result;
+    isWoman ? result = "Ms." : result = "Mr.";
+    return result;
   }
 };
