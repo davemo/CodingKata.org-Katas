@@ -15,6 +15,13 @@ describe("fizzBuzz", function() {
       expect(result).toBe('buzz');
     });
   });
+  
+  describe("a number divisible by both 3 and 5", function() {
+    it("returns the string 'fizzbuzz'", function() {
+      result = sut(15);
+      expect(result).toBe('fizzbuzz');
+    });
+  });
 
   
 });
