@@ -1,3 +1,7 @@
 fizzBuzz = function(num) {
-    return 'fizz';
+    if(num % 3 === 0) {
+      return 'fizz';
+    } else {
+      return 'buzz';
+    }
 };
