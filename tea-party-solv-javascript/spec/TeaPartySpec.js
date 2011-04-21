@@ -12,4 +12,11 @@ describe("TeaParty", function() {
 
   });
   
+  describe("welcoming a man", function() {
+    it("should includ the 'Mr.' prefix", function() {
+      result = sut("Baldwin", false, true);
+      expect(result).toContain("Mr.");
+    });
+  });
+  
 });
